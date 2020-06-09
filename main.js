@@ -27,7 +27,6 @@ replaceAllButton.addEventListener("click", function () {
     for (let rowIndex = 0; rowIndex < rowElements.length; rowIndex += 1) {
         let currentRowElement = rowElements[rowIndex]
         let cellElements = getCellElements(currentRowElement)
-        //Write a nested loop which loops over the array of cell elements.
         for (let cellIndex = 0; cellIndex < cellElements.length; cellIndex += 1) {
             let currentCellDiv = cellElements[cellIndex]
             let cellString = currentCellDiv.innerText;
